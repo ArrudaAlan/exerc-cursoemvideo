@@ -1,0 +1,6 @@
+n = input('Digite algo: ')
+print('O que foi digitado é númerico?', n.isnumeric())
+print('O que foi digitado é alfabetico?')
+print(n.isalpha())
+print('O que foi digitado é alfanumerico?')
+print(n.isalnum())
